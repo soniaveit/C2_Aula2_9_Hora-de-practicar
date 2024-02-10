@@ -53,7 +53,6 @@ function pideDosNumeros(){
     let numero1 = parseFloat(prompt('Ingrese el primer número: '));
     let numero2 = parseFloat(prompt('Ingrese el segundo número: '));
     let numMayor=numeroMayor(numero1, numero2);
-    //alert('El promedio entre ' + numero1 + ', ' + numero2 + ' y ' + numero3 + ' es ' + numPromedio);
 }
 function numeroMayor(num1, num2){
     if (num1>num2) {
@@ -88,3 +87,4 @@ function asignarTextoElemento(elemento, texto) {
 
 asignarTextoElemento('h1','Curso 2 - Lógica de programación y JavaScript');
 asignarTextoElemento('h2','Práctica del Aula 2');
+asignarTextoElemento('h3','Para ver los resultados de los ejercicios 1 y 2 habilitar la vista de la consola, en Herramientas para desarrolladores del navegador');
