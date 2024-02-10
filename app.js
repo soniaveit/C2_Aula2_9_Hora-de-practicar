@@ -41,7 +41,7 @@ function pideTresNumeros(){
     let numero2 = parseFloat(prompt('Ingrese el segundo número: '));
     let numero3 = parseFloat(prompt('Ingrese el tercer número: '));
     let numPromedio=promedio(numero1, numero2, numero3);
-    alert('El promedio de ' + numero1 + ', ' + numero2 + ' y ' + numero3 + ' es ' + numPromedio);
+    alert('El promedio entre ' + numero1 + ', ' + numero2 + ' y ' + numero3 + ' es ' + numPromedio);
 }
 
 function promedio(num1, num2, num3){
@@ -53,7 +53,7 @@ function pideDosNumeros(){
     let numero1 = parseFloat(prompt('Ingrese el primer número: '));
     let numero2 = parseFloat(prompt('Ingrese el segundo número: '));
     let numMayor=numeroMayor(numero1, numero2);
-    //alert('El promedio de ' + numero1 + ', ' + numero2 + ' y ' + numero3 + ' es ' + numPromedio);
+    //alert('El promedio entre ' + numero1 + ', ' + numero2 + ' y ' + numero3 + ' es ' + numPromedio);
 }
 function numeroMayor(num1, num2){
     if (num1>num2) {
